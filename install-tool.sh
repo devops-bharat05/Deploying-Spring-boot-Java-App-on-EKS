@@ -4,6 +4,10 @@ ehco "############### Updating ###############"
 sudo apt-get update
 sudo apt install unzip
 
+echo""
+echo "############### Installing Tree util ###############"
+sudo apt install tree -y
+
 echo ""
 echo "############### Installing Docker ###############"
 sudo apt install docker.io -y
